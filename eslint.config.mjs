@@ -1,9 +1,6 @@
 // @ts-check
 import antfu from '@antfu/eslint-config'
-import { FlatCompat } from '@eslint/eslintrc'
 import withNuxt from './.nuxt/eslint.config.mjs'
-
-const compat = new FlatCompat()
 
 export default withNuxt(
   antfu({
@@ -26,14 +23,5 @@ export default withNuxt(
         },
       ],
     },
-  },
-  ...compat.config({
-    extends: ['plugin:tailwindcss/recommended'],
-    rules: {
-      'tailwindcss/classnames-order': 'warn',
-      'tailwindcss/no-unnecessary-arbitrary-value': 'warn',
-      'tailwindcss/enforces-shorthand': 'warn',
-      'tailwindcss/no-custom-classname': 'off',
-    },
-  }),
+  }
 )
