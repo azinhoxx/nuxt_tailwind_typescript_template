@@ -21,7 +21,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^3.12.0",
     "@nuxt/eslint": "^1.1.0",
-    "@tailwindcss/postcss": "^4.0.0-beta.8",
+    "@tailwindcss/postcss": "^4.0.8",
     "eslint": "^9.17.0",
     "tailwindcss": "^4.0.8",
     "typescript": "^5.7.2"
