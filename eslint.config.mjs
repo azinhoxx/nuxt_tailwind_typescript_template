@@ -1,4 +1,3 @@
-// @ts-check
 import antfu from '@antfu/eslint-config'
 import withNuxt from './.nuxt/eslint.config.mjs'
 
@@ -6,6 +5,7 @@ export default withNuxt(
   antfu({
     rules: {
       'style/brace-style': ['error', '1tbs'],
+      'antfu/top-level-function': ['off'],
     },
   }),
   {
@@ -23,6 +23,7 @@ export default withNuxt(
         },
       ],
       'vue/no-multiple-template-root': ['off'],
+      'vue/no-v-text-v-html-on-component': ['off'],
     },
-  }
+  },
 )

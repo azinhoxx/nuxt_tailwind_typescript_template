@@ -2,6 +2,13 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'ru',
+      },
+    },
+  },
   modules: ['@nuxt/eslint', '@nuxt/fonts', '@nuxt/image', '@nuxt/icon'],
   eslint: {
     config: {
@@ -10,8 +17,8 @@ export default defineNuxtConfig({
   },
   fonts: {
     experimental: {
-      processCSSVariables: true
-    }
+      processCSSVariables: true,
+    },
   },
   postcss: {
     plugins: {
