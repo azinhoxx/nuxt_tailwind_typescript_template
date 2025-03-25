@@ -19,7 +19,7 @@
     "nuxt": "^3.16.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.10.2",
+    "@antfu/eslint-config": "^4.11.0",
     "@nuxt/eslint": "^1.2.0",
     "@tailwindcss/postcss": "^4.0.15",
     "eslint": "^9.22.0",
