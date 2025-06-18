@@ -44,6 +44,7 @@ export default antfu(
           lineBreakStyle: 'windows',
         },
       ],
+      'better-tailwindcss/no-unregistered-classes': ['off'],
     },
   },
 )
