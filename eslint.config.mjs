@@ -32,7 +32,7 @@ export default antfu(
     },
     settings: {
       'better-tailwindcss': {
-        entryPoint: './src/assets/main.css',
+        entryPoint: './assets/css/main.css',
       },
     },
     rules: {
@@ -44,7 +44,6 @@ export default antfu(
           lineBreakStyle: 'windows',
         },
       ],
-      'better-tailwindcss/no-unregistered-classes': ['off'],
     },
   },
 )
